@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.clippingalpha/mcp",
+  "title": "Clipping Alpha",
+  "description": "Find the most profitable clipping and UGC campaigns. Every major clipping platform, by Alpha Score.",
+  "version": "1.0.2",
+  "websiteUrl": "https://clippingalpha.com",
+  "icons": [
+    {
+      "src": "https://clippingalpha.com/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://clippingalpha.com/mcp"
+    }
+  ]
+}
