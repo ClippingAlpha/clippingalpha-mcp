@@ -6,7 +6,7 @@ The hosted [Model Context Protocol](https://modelcontextprotocol.io) server of [
 - Without 18+ campaigns: `https://clippingalpha.com/mcp/general` (the same tools, with campaigns in regulated categories such as gambling, prediction markets and crypto trading left out)
 - Auth: none for the campaign tools. OAuth with dynamic client registration for the account tools.
 - Server card: [clippingalpha.com/.well-known/mcp/server-card.json](https://clippingalpha.com/.well-known/mcp/server-card.json)
-- Setup page: [clippingalpha.com/agents](https://clippingalpha.com/agents)
+- Setup page: [clippingalpha.com/clip-with-ai](https://clippingalpha.com/clip-with-ai)
 
 This repository holds the documentation and the registry metadata. The server runs at clippingalpha.com, there is nothing to install or host.
 
@@ -50,7 +50,7 @@ Each campaign tool takes a campaign as `brand/series` (for example `lovable/clip
 
 ### Claude (claude.ai and Claude Desktop)
 
-Open Connectors (Customize, Connectors) and choose Add custom connector. Name `ClippingAlpha`, URL `https://clippingalpha.com/mcp`. Or open the prefilled link on [clippingalpha.com/agents](https://clippingalpha.com/agents). Anthropic's guide: [custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp).
+Open Connectors (Customize, Connectors) and choose Add custom connector. Name `ClippingAlpha`, URL `https://clippingalpha.com/mcp`. Or open the prefilled link on [clippingalpha.com/clip-with-ai](https://clippingalpha.com/clip-with-ai). Anthropic's guide: [custom connectors using remote MCP](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp).
 
 ### Claude Code
 
@@ -66,7 +66,7 @@ With developer mode on, add an app in Settings, Apps with the MCP URL `https://c
 
 ### Cursor
 
-Use the install button on [clippingalpha.com/agents](https://clippingalpha.com/agents), or add this to `~/.cursor/mcp.json`:
+Use the install button on [clippingalpha.com/clip-with-ai](https://clippingalpha.com/clip-with-ai), or add this to `~/.cursor/mcp.json`:
 
 ```json
 {
@@ -82,7 +82,7 @@ Docs: [cursor.com/docs/mcp](https://cursor.com/docs/mcp).
 
 ### VS Code
 
-Use the install button on [clippingalpha.com/agents](https://clippingalpha.com/agents), or add this to `.vscode/mcp.json`:
+Use the install button on [clippingalpha.com/clip-with-ai](https://clippingalpha.com/clip-with-ai), or add this to `.vscode/mcp.json`:
 
 ```json
 {
